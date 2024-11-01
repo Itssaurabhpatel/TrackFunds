@@ -1,0 +1,33 @@
+/* Card styles */
+.my-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 500px;
+    padding: 0.2rem;
+    font-family: "Poppins", sans-serif;
+    margin: 2rem;
+    margin-top: 2rem;
+}
+
+/* Card header styles */
+.ant-card-head-title {
+    margin: 0 !important;
+    font-weight: 500;
+}
+
+/* Row styles */
+.my-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem auto;
+    width: 89%;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Additional styles */
+.my-row > * {
+    flex: 1; /* Optional: Ensure children have equal flex-basis */
+    min-width: 200px; /* Optional: Set a minimum width for responsiveness */
+}

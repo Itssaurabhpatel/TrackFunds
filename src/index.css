@@ -1,0 +1,48 @@
+@import '~antd/dist/reset.css';
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --theme: #28a749;
+  --black: #000;
+  --white: #fff;
+  --shadow: 0px opx 30px 8px rgba(227, 227, 227, 0.75);
+  --s: 0 4px 8px rgba(0, 0, 0, 0.2);    
+
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+.input-wrapper input,
+.custom-input {
+  border: 0px;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem Ørem;
+  width: 100%;
+  border-radius: 0;
+}
+custom-input {
+  margin-top: -1rem !important;
+}
+.input-wrapper input::placeholder,
+custom-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.input-wrapper input:focus,
+.custom-input:focus {
+  outline: none;
+  opacity: 1;
+  transition: all 0.3s;
+}

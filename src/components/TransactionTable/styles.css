@@ -1,0 +1,139 @@
+/* Table Wrapper */
+.table {
+  padding: 20px;
+  max-width: 85%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Font Styling */
+.table table {
+  font-family: "poppins", sans-serif !important;
+}
+
+/* Search Bar and Selector Container */
+.searchBar {
+  display: flex;
+  align-items: center,!important;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+/* Search Bar Input */
+.search {
+  flex-grow: 1; /* Make it take up available space */
+  padding-left: 35px;
+  height: 35px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+/* Option Selector */
+.selector {
+  width: 200px; /* Adjust width as needed */
+  height: 35px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.searchBar img {
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Transaction Header */
+.mytransaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.mytransaction h2 {
+  margin-left: 1rem;
+  font-size: 24px;
+}
+
+/* Sort Options and CSV Export */
+.sort-options,
+.CSV {
+  display: flex;
+  gap: 10px;
+}
+
+/* CSV Export */
+.CSV {
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+/* Button Styling */
+.btn, .btn-blue {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn {
+  background-color: #4CAF50;
+}
+
+.btn:hover, .btn-blue:hover {
+  background-color: #45a049;
+}
+
+.btn-blue {
+  background-color: #45a050;
+}
+
+/* Hidden File Input */
+input[type="file"] {
+  display: none;
+}
+
+/* Ant Design Overrides */
+.ant-input, .ant-select-selector {
+  border-radius: 5px;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+.ant-input {
+  align-items: center;
+}
+
+/* Table Styling */
+.ant-table {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+
+.ant-table-tbody > tr > td {
+  text-align: left;
+}
+
+.ant-table-tbody > tr:hover {
+  background-color: #fafafa;
+}
