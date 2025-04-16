@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Itssaurabhpatel/TrackFunds/static/css/main.3ac5bcb3.css",
-    "main.js": "/Itssaurabhpatel/TrackFunds/static/js/main.34a69230.js",
-    "static/media/transactions.svg": "/Itssaurabhpatel/TrackFunds/static/media/transactions.004d9f02317991455e50b36d9dae2a26.svg",
-    "index.html": "/Itssaurabhpatel/TrackFunds/index.html",
-    "static/media/user.svg": "/Itssaurabhpatel/TrackFunds/static/media/user.0d3cde29811636d534d72a2ea4f24dad.svg",
-    "static/media/search.svg": "/Itssaurabhpatel/TrackFunds/static/media/search.4da02613dcc315ee7fdf5edc7d9d5653.svg",
-    "main.3ac5bcb3.css.map": "/Itssaurabhpatel/TrackFunds/static/css/main.3ac5bcb3.css.map",
-    "main.34a69230.js.map": "/Itssaurabhpatel/TrackFunds/static/js/main.34a69230.js.map"
+    "main.css": "/TrackFunds/static/css/main.3ac5bcb3.css",
+    "main.js": "/TrackFunds/static/js/main.4257816a.js",
+    "static/media/transactions.svg": "/TrackFunds/static/media/transactions.004d9f02317991455e50b36d9dae2a26.svg",
+    "index.html": "/TrackFunds/index.html",
+    "static/media/user.svg": "/TrackFunds/static/media/user.0d3cde29811636d534d72a2ea4f24dad.svg",
+    "static/media/search.svg": "/TrackFunds/static/media/search.4da02613dcc315ee7fdf5edc7d9d5653.svg",
+    "main.3ac5bcb3.css.map": "/TrackFunds/static/css/main.3ac5bcb3.css.map",
+    "main.4257816a.js.map": "/TrackFunds/static/js/main.4257816a.js.map"
   },
   "entrypoints": [
     "static/css/main.3ac5bcb3.css",
-    "static/js/main.34a69230.js"
+    "static/js/main.4257816a.js"
   ]
 }
